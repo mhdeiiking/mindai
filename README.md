@@ -95,7 +95,7 @@ ai = Ai()
 eng = ai.image_search(query="Duck")
 
 print(eng) # return list of images.
-#print(eng['imgs']) 
+#print(eng['images']) 
 ```
 
 # Thats all thank you.
