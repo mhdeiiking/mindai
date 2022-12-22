@@ -66,7 +66,7 @@ ai = Ai()
 tt = ai.audio_to_text(url="https://ttsmp3.com/created_mp3/2e14d53d4285fe4b0d43245902171fcf.mp3")
 
 print(tt)
-#print(means['text'])
+#print(tt['text'])
 ```
 <b>Explain Code :</b>
 ```
