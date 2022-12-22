@@ -56,4 +56,46 @@ print(means)
 #print(means['example'])
 ```
 
+<b>Audio  to Text (STT) :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+tt = ai.audio_to_text(url="https://ttsmp3.com/created_mp3/2e14d53d4285fe4b0d43245902171fcf.mp3")
+
+print(tt)
+#print(means['text'])
+```
+<b>Explain Code :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+ex = ai.explain_code("""
+d = 0
+print(d)
+exit()
+""",lang=ar)
+## lang None or english or arabic.
+print(ex)
+#print(ex['explain'])
+```
+
+<b>Image Search Engine (Ai Make, Images.) :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+eng = ai.image_search(query="Duck")
+
+print(eng) # return list of images.
+#print(means['imgs']) 
+```
+
 # Thats all thank you.
