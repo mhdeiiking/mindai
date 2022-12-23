@@ -53,7 +53,7 @@ ai = Ai()
 means = ai.word_mean(word="men")
 
 print(means)
-#print(means['example'])
+#print(means['mean'])
 ```
 
 <b>Audio  to Text (STT) :</b>
@@ -82,7 +82,7 @@ exit()
 """,lang=ar)
 ## lang None or english or arabic.
 print(ex)
-#print(ex['explain'])
+#print(ex['explained'])
 ```
 
 <b>Image Search Engine (Ai Make, Images.) :</b>
