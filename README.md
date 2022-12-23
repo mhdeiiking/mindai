@@ -3,7 +3,7 @@ mindai is a package has alot of ai tools like chat with ai or code generate and 
 
 
 **Examples**
-<b>Chat with ai:</b>
+<b>Chat with ai (Offline)+:</b>
 ```
 import mindai
 from mindai import Ai
