@@ -79,7 +79,7 @@ ex = ai.explain_code("""
 d = 0
 print(d)
 exit()
-""",lang=ar)
+""",lang='ar')
 ## lang None or english or arabic.
 print(ex)
 #print(ex['explained'])
