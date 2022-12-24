@@ -94,8 +94,70 @@ ai = Ai()
 
 eng = ai.image_search(query="Duck")
 
-print(eng) # return list of images.
+print(eng) 
 #print(eng['images']) 
 ```
+
+<b> Dalle-2 Text-To-Image (New!) :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+eng = ai.dalle_2("Duck eat sandwich")
+
+print(eng) 
+#print(eng['url']) 
+```
+<b>Complete Setenece  :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+eng = ai.complete_setnece("The Goal of life is *") # Must add (*) To complete your setnece.
+
+print(eng) 
+#print(eng['setneces']) 
+```
+<b>Text-To-Anime Image!  :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+eng = ai.text_to_anime("A Iraqi Men")
+
+print(eng) 
+#print(eng['url']) 
+```
+<b>Prompt Extend :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+eng = ai.prompt_extend("Elon Musk")
+
+print(eng)
+#print(eng['text']) 
+```
+<b> Get Verbs and Names and Company Names :</b>
+```
+import mindai
+from mindai import Ai
+
+ai = Ai()
+
+eng = ai.get_verbs("Hello, my name is Elon and i CEO of SpaceX and Tesla Motors")
+
+print(eng) 
+#print(eng['verbs']) 
+```
+
 
 # Thats all thank you.
